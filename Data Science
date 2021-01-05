@@ -1,0 +1,7 @@
+# Excerise
+#Numbers-Excersie
+# solution for the 1st Problem-You have a football field that is 92 meter long and 48.8 meter wide. Find out total area using python and print it.
+length=98
+width=5.5
+area=length*width
+print("Area of Football Field", area)
