@@ -5,3 +5,33 @@ length=98
 width=5.5
 area=length*width
 print("Area of Football Field", area)
+
+#strings exercise
+# Create 3 variables to store street, city and country, now create address variable to store entire address. Use two ways of creating this  variable, 
+one using + operator and the other using f-string.Now Print the address in such a way that the street, city and country prints in a separate line
+#solution
+#first method
+  street="lane number 2"
+  City="Pune"
+  Country="India"
+  Address='''street
+  Citys
+  Country'''
+  print(Address)
+#second method
+  street="lane number 2"
+  City="Pune"
+  Country="India"
+  Address=street+'\n'+City+'\n'+Country
+  print(Address)
+  
+# Create a variable to store the string "Earth revolves around the sun"
+  Print "revolves" using slice operator
+  Print "sun" using negative index
+#Code
+#1st case
+statement="Earth revolves around the sun"
+statement[6:14]
+#2nd case
+statement[-3:]
+#last two programs made using solution help hence they are not included here.
